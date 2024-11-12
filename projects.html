@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Leandro L. Minku's Projects</title>
+    <meta name="keywords" content="mining data streams, online learning, concept drift, ensembles of learning machines, evolutionary algorithms, mining software repositories, search-based software engineering">
+    <meta name="author" content="Leandro L. Minku">
+  </head>
+  <body>
+
+    <div style="overflow:auto">
+      <div class="about">
+	<div class="pagename">
+	  Leandro L. Minku
+	</div>
+	<img alt="Leandro L. Minku" src="minku.jpg" width="100%">
+	<p>  Office UG39 <br>
+	  School of Computer Science <br>
+	  University of Birmingham <br>
+	  Edgbaston <br>
+	  Birmingham, B15 2TT <br>
+	  UK</p>
+	<p>L.L.Minku ._at_. bham.ac.uk<br>
+	  +44 (0)121 414 6822</p>
+      </div>
+
+      <div class="menuholder">
+	<div class="menu"> <!-- style="margin-left:120pt">-->
+	  <a href="index.html" class="menu">About Me</a>
+	</div>
+	<div class="menu">
+	  <a href="projects.html" class="active menu">Projects</a>
+	</div>
+	<div class="menu">
+	  <a href="publications.html" class="menu">Publications</a>
+	</div>
+	<div class="menu">
+	  <a href="teaching.html" class="menu">Teaching</a>
+	</div>
+	<div class="menu">
+	  <a href="supervision.html" class="menu">My Lab</a>
+	</div>
+	<div class="menu">
+	  <a href="open-positions.html" class="menu">Open Positions</a>
+	</div>
+	<div class="menu">
+	  <a href="open-source.html" class="menu">Open Source / Data</a>
+	</div>
+	<div class="menu">
+	  <a href="other-activities.html" class="menu">Other Activities</a>
+	</div>
+      </div>
+
+
+
+
+
+      <div class="main">
+	<h1>Projects</h1>
+
+	<h2>Stable Prediction of Defect-Inducing Software Changes (SPDISC)</h2>
+	<p> Principal investigator: <a href="index.html">Dr. Leandro L. Minku</a>.<br>
+          Keywords: software defect prediction, concept drift,
+          ensembles of learning machines.<br>
+          Funding: <a href="http://gow.epsrc.ac.uk/NGBOViewGrant.aspx?GrantRef=EP/R006660/1">Engineering
+            and Physical Sciences Research Council (EPSRC)</a>.<br><br>
+
+	  <b>Context: </b>software systems have become ever
+          larger and more complex. This inevitably leads to
+          software defects, whose debugging is estimated to cost
+          the global economy 312 billion USD annually. Reducing
+          the number of software defects is a challenging
+          problem, and is particularly important considering the
+          strong pressure towards rapid delivery. Such pressure
+          impedes different parts of the software source code to
+          all receive equally large amount of inspection and
+          testing effort. <br>
+          <br>
+          With that in mind, machine learning approaches have
+          been proposed for predicting defect-inducing changes
+          in the source code as soon as these changes finish
+          being implemented. Such approaches could enable
+          software engineers to target special testing and
+          inspection attention towards parts of the source code
+          most likely to induce defects, reducing the risk of
+          committing defective changes. <br>
+          <br>
+          <b>Problem:</b> the predictive performance of existing
+          approaches is unstable, because the underlying defect
+          generating process being modelled may vary over time
+          (i.e., there may be concept drift). This means that
+          practitioners cannot be confident about the prediction
+          ability of existing approaches -- at any given point
+          in time, predictive models may be performing very well
+          or failing dramatically.<br>
+          <br>
+          <b>Aim and vision:</b> SPDISC aims at creating more
+          stable models for predicting defect-inducing changes,
+          through the development of a novel machine learning
+          approach for automatically adapting to concept drift.
+          When integrated with software versioning systems, the
+          models will provide early, reliable and automated
+          defect-inducing change alerts throughout the lifetime
+          of software projects. <br>
+          <br>
+	  <b>Impact: </b>SPDISC will enable a transformation in
+          the way software developers review and commit their
+          changes. By creating stable models to make software
+          developers aware of defect-inducing changes as soon as
+          these are implemented, it will allow targeted
+          inspection and testing attention towards
+          defect-inducing code throughout the lifetime of
+          software projects. This will reduce the debugging cost
+          and ultimately lead to better software quality. <br>
+          <br>
+          <b>Proposed approach: </b>an online learning
+          algorithm will be developed to process incoming data
+          as they become available, enabling fast reaction to
+          concept drift. Concept drift will be detected using
+          methods designed to cope with class imbalance, which
+          typically occurs in prediction of defect-inducing
+          software changes. Class imbalance refers to the issue
+          of having a much smaller number of defect-inducing
+          changes than the number of safe changes. The proposed
+          approach will also make use of data from different
+          projects (i.e., transfer learning between domains) to
+          speed up adaptation to concept drift. <br>
+          <br>
+	  <b>Novelty: </b>SPDISC is the first proposal to look
+          into the stability of predictive performance over time
+          in the context of defect-inducing software changes.
+          Most previous work ignored the fact that predictions
+          are required over time, being oblivious of the
+          instability of predictive performance in this problem.
+          To deal with instability, SPDISC will develop the
+          first online transfer learning approach for predicting
+          defect-inducing software changes. <br>
+          <br>
+          <b>Ambitiousness: </b>online transfer learning
+          between domains with concept drift is not only a very
+          new area of research in software engineering, but also
+          in machine learning. Very few approaches exist for
+          that, and none of them can deal with class-imbalanced
+          problems. Therefore, SPDISC will not only advance
+          software engineering by enabling a transformation in
+          the way software developers review and commit their
+          changes, but also advance the area of machine learning
+          itself. <br>
+          <br>
+          <b>Timeliness: </b>given the current size and
+          complexity of software systems, the increased number
+          of life-critical applications, and the high
+          competitiveness of the software industry, approaches
+          for improving software quality and reducing the cost
+          of producing and maintaining software are currently of
+          utmost importance.<br>
+          <br>
+          <br>
+	</p>
+
+
+
+
+	<h2>Experience-based COmputation: Learning to optimisE (ECOLE)</h2>
+	<p>Principal investigator: <a
+                                          href="http://www.cs.bham.ac.uk/%7Exin">Prof. Xin Yao</a>.<br>
+	Funding: European Union’s Horizon 2020 research and innovation programme under grant agreement No 766186.<br>
+	Website: <a href="https://ecole-itn.eu/">https://ecole-itn.eu/</a><br><br>
+	ECOLE, is an Innovative Training Network (ITN) for early stage researchers (ESRs) coordinated by the University of Birmingham. It is based on novel synergies between nature inspired optimisation and machine learning. The training programme will be targeted at the automotive industry, but the skill set of the early-stage researchers (ESRs) will be equally valuable to other fast-moving, innovative industries. This four year programme will yield a new generation of high achieving, early stage researchers who will be provided with the transferable skills necessary for thriving careers in emerging and rapidly developing industrial areas.
+
+
+	</p>
+
+	<h2>Dynamic Adaptive Automated Software Engineering (DAASE)</h2>
+        <p>    Principal investigator: <a
+					  href="http://www.cs.bham.ac.uk/%7Exin">Prof. Xin Yao</a>.<br>
+          Keywords: software project estimation, project
+          scheduling problem, ensembles of learning machines,
+          online learning, concept drift, evolutionary
+          algorithms.<br>
+          Funding: <a
+                      href="http://gow.epsrc.ac.uk/NGBOViewGrant.aspx?GrantRef=EP/J017515/1">Engineering
+            and Physical Sciences Research Council (EPSRC)</a>.<br>
+          My work on this project completed in August 2015.<br>
+          <br>
+	  DAASE aims to create a new approach to software
+          engineering which places computational search at the
+          heart of the process and products it creates and
+          embeds adaptivity into both. This new approach will
+          produce software that is dynamically adaptive, being
+          not only able to respond to and fix problems that
+          arise before deployment and during operation, but also
+          to continually optimise, re-configure and evolve to
+          adapt to new operating conditions, platforms and
+          environmental challenges. DAASE will create an array
+          of new processes, methods, techniques and tools for
+          this new kind of software engineering, radically
+          transforming both theory and practice of software
+          engineering. As part of it, DAASE will develop a
+          hyper-heuristic approach to adaptive automation. A
+          hyper-heuristic is a methodology for selecting or
+          generating heuristics. Most heuristic methods in the
+          literature operate on a search space of potential
+          solutions to a particular problem. However, a
+          hyper-heuristic operates on a search space of
+          heuristics. <br>
+          <br>
+	  Currently, I am researching into adaptive software
+          prediction. Software prediction tasks are of strategic
+          importance for software developing companies. An
+          example of such task is software effort estimation.
+          Overestimations may result in a company loosing
+          contracts or wasting resources, whereas
+          underestimations may result in poor quality, delayed
+          or unfinished software systems. Most software
+          prediction research neglects the fact that software
+          prediction tasks operate in online changing
+          environments. Models are typically trained on a set of
+          projects and evaluated on another set of projects,
+          without considering whether the training projects were
+          really available before the testing projects. Besides
+          possibly leading to incorrect conclusions, this
+          results in inflexible prediction approaches that
+          become obsolete with time. I am currently
+          investigating the type of changes suffered by software
+          prediction tasks and proposing new approaches to
+          quickly adapt to these changes.<br>
+          <br>
+          <br>
+	</p>
+
+
+	
+
+
+
+
+
+
+
+
+
+	<h2>Software Engineering by Automated Search (SEBASE)</h2>
+        <p> Principal investigator: <a
+				       href="http://www.cs.bham.ac.uk/%7Exin">Prof. Xin Yao</a>.<br>
+          Keywords: software effort estimation, project
+          scheduling problem, ensembles of learning machines,
+          evolutionary algorithms, online learning, concept
+          drift.<br>
+          Funding: <a
+                      href="http://gow.epsrc.ac.uk/NGBOViewGrant.aspx?GrantRef=EP/D052785/1">Engineering
+            and Physical Sciences Research Council (EPSRC)</a>.<br>
+          Project completed in December 2011.<br>
+          <br>
+          <br>
+        </p>
+
+
+
+
+
+        <h2>Online Ensemble Learning in the Presence of Concept Drift</h2>
+	<p> Supervisor: <a href="http://www.cs.bham.ac.uk/%7Exin">Prof. Xin Yao</a>.<br>
+          Keywords: concept drift, online learning, ensembles of
+          learning machines.<br>
+          Funding: Overseas Research Students (ORS) Award and
+          School Research Studentship (School of Computer
+          Science, The University of Birmingham). <br>
+          Completion: 2010. <br>
+          Degree congregation: 2011.<br>
+          <br>
+          Most machine learning algorithms operate in offline
+          mode. They first learn how to perform a certain task,
+          and then are used to perform this task. However, most
+          practical problems change with time, i.e., they suffer
+          concept drift. For example, the problem of predicting
+          users' preferences in information filtering systems
+          may involve changes in users' preferences; the problem
+          of classifying webpages may involve changes in the
+          most representative words of different webpage
+          categories; the problem of credit card approval may
+          involve changes in customers' reliability. Different
+          from offline learning algorithms, online learning
+          algorithms can be used to adapt to concept drifts
+          based on newly incoming training examples. These
+          algorithms do not have a separate training and testing
+          phase, but learn throughout their lifetime as they are
+          used to perform a certain task, by processing each new
+          training example separately and then discarding it. <br>
+          <br>
+          Due to the practical need for adaptive learning
+          systems, there has been an increasing number of works
+          on online learning algorithms able to deal with
+          concept drift. In particular, online ensembles of
+          learning machines have been used. However, there has
+          been no deep study of why they can be helpful for
+          dealing with drifts and which of their features can
+          contribute for that. This thesis mainly investigates
+          not only how ensemble diversity affects accuracy in
+          online learning in the presence of concept drift, but
+          also how to use diversity in order to significantly
+          improve accuracy in changing environments. This is the
+          first diversity study in the presence of concept
+          drift. The main contributions of the thesis are:<br>
+	  <ul>
+            <li><b>A better understanding of when, how and
+                why ensembles of learning machines can help to
+                handle concept drift in online learning. </b>This
+              study shows that one reason for ensembles to be
+              helpful for dealing with concept drifts is the
+              diversity among their base learners. Diversity is
+              even more important in changing environments than
+              in static environments. A proper level of
+              diversity at each different environmental
+              condition can significantly reduce the test errors
+              of the learning machines as follows. Before a
+              drift, ensembles with less diversity obtain lower
+              test errors. On the other hand, it is a good
+              strategy to maintain very highly diverse ensembles
+              to obtain lower test errors shortly after a drift
+              independent of the type of drift, even though high
+              diversity is more important for more severe
+              drifts. Longer after a drift, high diversity
+              becomes less important. High diversity by itself
+              can help to reduce the initial increase in error
+              caused by a drift, but does not provide faster
+              recovery from drifts in the long-term.</li><br>
+
+	    <li><b>Knowledge of how to use information learnt before a concept drift to aid the learning after a concept drift. </b>Previous works have never
+              attempted to use information learnt before a concept
+              drift to aid the learning after a concept drift.
+              However, a good learning machine for changing
+              environments should not only avoid using outdated
+              information, but also be able to use information
+              previously learnt whenever it becomes useful. This
+              thesis shows that ensembles trained before a concept
+              drift with very high diversity can be used to transfer
+              useful information learnt from the old concept to the
+              new concept. Information learnt before a concept drift
+              is shown to be helpful for the learning process after
+              the drift when the drift is slow or does not cause too
+              many changes. Very highly diverse ensembles perform
+              well in comparison to other strategies after these
+              concept drifts as long as low diversity is enforced
+              after the concept drift.</li><br>
+
+	    <li> <b>A new online ensemble learning approach called Diversity for Dealing with Drifts (DDD).</b>Based
+              on the deep diversity studies summarized above, a new
+              approach called DDD was proposed. A good learning
+              approach for changing environments should: (i)
+              maximize performance when the concept is stable; (ii)
+              minimize the drop in performance when there is concept
+              drift; (iii) quickly recover from concept drifts; and
+              (iv) efficiently use information previously learnt
+              whenever it is beneficial. DDD was carefully designed
+              to use ensemble diversity for dealing with these
+              requirements. It maintains ensembles with different
+              levels of diversity which are automatically emphasized
+              during environmental states in which they are helpful.
+              In this way, DDD is robust to different types of
+              concept drift. A study based on both artificial data
+              sets and real world data sets in the domains of credit
+              card approval, computer network intrusion detection
+              and electricity price trend prediction showed that DDD
+              was able to outperform state-of-the-art approaches. In
+              all the experimental comparisons carried out, DDD
+              always performed at least as well as other drift
+              handling approaches under various conditions, with
+              very few exceptions. Furthermore, DDD was shown to be
+              very robust to false positive drift detections,
+              outperforming other drift handling approaches in terms
+              of accuracy under these conditions.</li><br>
+
+	    <li><b>A new concept drift categorisation to allow principled studies of drifts. </b>The existing
+              literature presented very heterogeneous and ambiguous
+              categorisations of concept drifts. In this thesis, a
+              categorisation using mutually exclusive and
+              unambiguous categories was proposed. Drifts are
+              categorised according to different criteria in order
+              to aid the development and evaluation of approaches to
+              deal with concept drifts.</li><br>
+
+            <li><b>An analysis of negative correlation in incremental learning.</b> This thesis also presents
+              a study of the suitability of ensembles based on
+              negative correlation learning for incrementally
+              learning new chunks of training examples under stable
+              environments. It shows that even though it is possible
+              to use negative correlation learning for that,
+              chunk-based incremental learning approaches face a
+              difficult trade-off between avoiding catastrophic
+              forgetting under periods of stability and attaining
+              plasticity when adaptivity to changes is needed.<br></li>
+
+
+
+	  </ul>
+	</p>
+
+
+
+
+
+
+
+
+
+
+
+<br>
+	<h2>EFuNN Parameters Optimisation and EFuNN Ensembles Construction</h2>
+        <p> Supervisor: <a
+			   href="http://www.cin.ufpe.br/%7Etbl">Prof. Teresa B.
+            Ludermir</a>.<br>
+          Keywords: online parameters optimisation, numeric
+          parameters optimisation, fuzzy neural networks,
+          ensembles of neural networks.<br>
+          Funding: Brazilian Council for Scientific and
+          Technological Development (CNPq).<br>
+          Degree congregation: 2006.<br>
+          <br>
+          Evolving Connectionist Systems (ECoSs) are systems
+          composed by one or more neural networks whose
+          structures adapt according to the data in a continuous
+          interaction with the environment. Evolving Fuzzy
+          Neural Networks (EFuNNs) are ECoSs which join the
+          neural networks functional characteristics to the
+          power of fuzzy logic. Fuzzy systems have been showing
+          to be very efficient to represent and reason about
+          uncertain knowledge. This is very important, as, many
+          times, human knowledge is uncertain.<br>
+          <br>
+	  A key challenge in Artificial Intelligence is to
+          create systems that are able not only to represent
+          human knowledge and reason about it, but also to
+          evolve and adapt their structures in a changing
+          environment. This kind of system is able to model
+          processes that continually develop and change over
+          time, e.g., biological data processing, electricity
+          load forecasting and adaptive speech recognition. A
+          system with these characteristics needs to be able to
+          tune its parameters in an on-line manner, according to
+          the environment. EFuNNs have some adaptable parameters
+          and their structures can also adapt according to
+          incoming data. However, they still have many
+          parameters that are fixed before the learning and have
+          great influence on its results. The problem of using a
+          fixed set of parameters is that an optimal set to a
+          particular state of the environment can be unsuitable
+          when the state of the environment changes.<br>
+          <br>
+          In this work, two new techniques which use
+          evolutionary algorithms to evolve the EFuNN parameters
+          in an on-line manner were developed. These techniques
+          are able to create fuzzy systems that are completely
+          tunable, according to unpredictable and unknown
+          environments. The techniques showed to be able to have
+          better accuracy than the techniques existent in the
+          literature to evolve EFuNN parameters in an on-line
+          manner.<br>
+          <br>
+	  Besides the necessity to create new techniques to
+          allow changing environments to be represented, it is
+          always important to develop approaches with increasing
+          generalization capabilities and lower execution time.
+          Ensembles of neural networks have formally and
+          empirically shown to outperform systems composed by
+          only one neural network. Thus, this work also proposes
+          a new approach to create ensembles of neural networks,
+          e.g., ensembles of EFuNNs. The approach uses a
+          clustering method and co-evolutionary algorithms to
+          create the ensembles in an innovative way, explicitly
+          partitioning the input space, in order to allow the
+          networks that compose the ensemble to specialise in
+          different parts of it and work in a divide-an-conquer
+          manner. The approach showed to be able to improve the
+          accuracy of single EFuNNs generated using evolutionary
+          algorithms similar to the co-evolutionary algorithms
+          used in the approach. Furthermore, the execution time
+          of the approach is lower than the execution time of
+          evolutionary algorithms to generate single EFuNNs.<br>
+
+
+	</p>
+
+      </div>
+
+
+    </div>
+
+
+
+  </body>
+</html>

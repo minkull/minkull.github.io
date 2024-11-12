@@ -1,0 +1,629 @@
+
+# List of projects
+
+Automated Student Project Allocation Tool
+
+Intelligent University Room Allocation and Scheduling System
+
+Interactive Artificial Intelligence Logo Creator 
+
+Software Project Scheduling Tool
+
+Touristic Route Planner
+
+Chess player
+
+Super Mario Player
+
+Online Machine Learning for Changing Environments
+
+Prediction of Defect-Inducing Software Changes
+
+Cross-Company Machine Learning for Software Effort Estimation - Not available this year
+
+Machine Learning for Environments with Recurring Contexts
+
+Data Extraction for Software Defect Prediction - Not available this year
+
+Inherited and Rare Cardiac Diseases (Collaboration with University Hospitals Birmingham) - Not available this year
+
+
+
+# Project descriptions
+
+
+## Automated Student Project Allocation Tool
+
+### Prerequisites
+
+- Programming abilities in Java, or C/C++, or similar language
+
+- Ability to create a GUI
+
+### Aims of project
+
+To develop an application that suggests a good allocation of students to projects considering the projects available and the students' preferences. The application will make use of evolutionary algorithms to search for a good allocation, and the student will investigate different ways to use evolutionary algorithms for making the allocation. Evolutionary algorithms are search/optimisation algorithms based on Darwin's evolutionary theory. They evolve a set of possible solutions until a "good enough" solution is found. Such algorithms are useful for problems with high computational complexity where a brute force algorithm would be infeasible. 
+
+### Challenges presented by the project
+
+- Learning about evolutionary algorithms. 
+
+- Formalising the problem as an optimisation problem.
+
+- Creative thinking for designing an adequate evolutionary algorithm for the problem.
+
+### Learning outcomes
+
+- Knowledge about evolutionary algorithms.
+
+- Ability to understand and implement advanced algorithms. 
+
+- Ability to formulate real-world problems as optimisation problems.
+
+### Nature of end-product
+
+Student project allocation application.
+
+### Project timetable
+
+- Understand evolutionary algorithms; 
+
+- formalise the problem as an optimisation problem;
+
+- design an evolutionary algorithm for the problem; 
+
+- prototype implementation and testing; 
+
+- final implementation and testing;
+
+- evaluation and tuning of implementation;
+
+- write-up.
+
+### References
+
+[EibenSmith2003] Eiben, A.E. and Smith, James E..
+Introduction to Evolutionary Computing. Springer (2003).
+
+
+
+
+
+## Intelligent University Room Allocation and Scheduling System
+
+### Prerequisites
+
+- Programming abilities in Java, or C/C++, or similar language
+
+- Ability to create a GUI
+
+### Aims of project
+
+- To develop an algorithm for finding a good room allocation and schedule for lectures and seminars at the University. The algorithm should receive the following as input:
+
+Working hours
+
+Rooms available and their locations
+
+Lectures to be scheduled and their corresponding modules
+
+List of students taking each module (optional)
+
+
+
+The output is a good room allocation considering the following objectives and constraints:
+
+All lectures should be scheduled and have a room allocated
+
+No room should be booked for more than one lecture at the same time
+
+No lecturer should be giving 2+ lectures at the same time
+
+No student should be attending 2+ lectures at the same time
+
+The distance that students should walk from one building to another should be minimised (optional)
+
+The number of consecutive lectures from the same module should be minimised (optional)
+
+
+
+Evolutionary algorithms are search/optimisation algorithms based on Darwin's evolutionary theory. They evolve a set of possible solutions until a "good enough" solution is found. Such algorithms will be used for finding good schedules. Different ways to use evolutionary algorithms for this problem will be investigated.
+
+### Challenges presented by the project
+
+- Learning about evolutionary algorithms. 
+
+- Formalising the problem as an optimisation problem.
+
+- Creative thinking for designing an adequate evolutionary algorithm for the problem.
+
+### Learning outcomes
+
+- Knowledge about evolutionary algorithms.
+
+- Ability to understand and implement advanced algorithms. 
+
+- Ability to formulate real-world problems as optimisation problems.
+
+### Nature of end-product
+
+- Lecture room allocation and scheduling tool.
+
+### Project timetable
+
+- Understand evolutionary algorithms; 
+
+- formalise the problem as an optimisation problem;
+
+- design an evolutionary algorithm for the problem; 
+
+- prototype implementation and testing; 
+
+- final implementation and testing;
+
+- evaluation and tuning of implementation;
+
+- write-up.
+
+### References
+
+[EibenSmith2003] Eiben, A.E. and Smith, James E..
+Introduction to Evolutionary Computing. Springer (2003).
+
+
+
+
+
+## Interactive Artificial Intelligence Logo Creator
+
+### Prerequisites
+
+- Ability to program in an object-oriented language such as Java
+
+- Ability to develop a GUI to display drawings of logos generated by the program
+
+- Ability to understand some geometry
+
+### Aims of project
+
+- This project aims to develop an artificial intelligence system that interacts with the user in order to help him/her to create colourful logos with geometric shapes.
+
+The artificial intelligence system will be based on interactive evolutionary algorithms. Evolutionary algorithms are search/optimisation algorithms based on Darwin's evolutionary theory. They evolve a set of possible solutions until a "good enough" solution is found. Evolutionary algorithms typically provide solutions to problems in a completely automated way. However, in this project, they will interact with the user in order to guide the search for good logos.
+
+### Challenges presented by the project
+
+- Learning about evolutionary algorithms.
+
+- Understanding an existing evolutionary algorithm to solve a problem similar to the one to be solved in this project.
+
+- Creativity to propose improvements to the algorithm above.
+
+### Learning outcomes
+
+- Knowledge about evolutionary algorithms.
+
+- Ability to understand and implement advanced algorithms.
+
+- Ability to implement interactive algorithms.
+
+### Nature of end-product
+
+Interactive Artificial Intelligence Logo Creator System
+
+### Project timetable
+
+- Understand evolutionary algorithms and an existing interactive evolutionary algorithm for a similar problem; 
+
+- design an evolutionary algorithm for the problem; 
+
+- prototype implementation and testing; 
+
+- final implementation and testing;
+
+- evaluation and tuning of implementation;
+
+- write-up.
+
+### References
+
+[LiEtAl2009] Y. Li, C. J. Hu and X. Yao.
+Innovative batik design with an interactive evolutionary art system, Journal of Computer Science and Technology 24 no.6 (2009).
+
+[EibenSmith2003] Eiben, A. and Smith, J..
+Introduction to Evolutionary Computing (2003).
+
+
+
+
+
+
+
+## Software Project Scheduling Tool
+
+### Prerequisites
+
+- Programming abilities in either Java or C/C++
+
+- Ability to create a GUI
+
+### Aims of project
+
+Evolutionary algorithms are search/optimisation algorithms based on Darwin's evolutionary theory. They evolve a set of possible solutions until a "good enough" solution is found. Such algorithms are useful for problems with high computational complexity. An example of such problem is the Software Project Scheduling Problem, where you need to find an allocation of employees to tasks in a software project with the aim of reducing the cost and the time to complete the project.
+
+Recently, an efficient evolutionary algorithm has been proposed for the Software Project Scheduling problem. However, this algorithm generates schedules that may require employees to divide their attention among several different tasks in a non-straightforward manner. This project aims at devising and implementing a new strategies to generate schedules that are easier for employees to follow. 
+
+### Challenges presented by the project
+
+- Learning about evolutionary algorithms. 
+
+- Creative thinking for designing an adequate evolutionary algorithm for the problem
+Learning outcomes
+
+- Knowledge about evolutionary algorithms.
+
+- Ability to understand and implement advanced algorithms. 
+
+- Ability to formulate real-world problems as optimisation problems.
+
+### Nature of end-product
+
+Software project scheduling tool.
+
+### Project timetable
+
+- Understand evolutionary algorithms; 
+
+- design an evolutionary algorithm for the problem; 
+
+- prototype implementation and testing; 
+
+- final implementation and testing;
+
+- evaluation and tuning of implementation;
+
+- write up.
+
+### References
+
+[EibenSmith2003] Eiben, A.E. and Smith, James E..
+Introduction to Evolutionary Computing. Springer (2003).
+
+[MinkuSudholtYao2014] Minku, L. L., Sudholt, D. and Yao, X..
+Improved Evolutionary Algorithm Design for the Project Scheduling Problem Based on Runtime Analysis, IEEE Transactions on Software Engineering 40 no.1 (2014).
+
+
+
+
+
+
+
+## Touristic Route Planner
+
+### Prerequisites
+
+- Programming abilities in either Java or C/C++
+
+- Ability to create a GUI
+
+### Challenges presented by the project
+
+- Learning about evolutionary algorithms.
+
+- Formalising the problem as an optimisation problem.
+
+- Creative thinking for designing an evolutionary algorithm to solve this problem.
+
+### Learning outcomes
+
+- Knowledge about evolutionary algorithms.
+
+- Ability to understand and implement advanced algorithms.
+
+- Ability to formulate real-world problems as optimisation problems.
+
+### Nature of end-product
+
+- Touristic route planner application
+
+### Project timetable
+
+- Understand evolutionary algorithms; 
+
+- design an evolutionary algorithm for the problem; 
+
+- prototype implementation and testing; 
+
+- final implementation and testing;
+
+- evaluation and tuning of implementation;
+
+- write-up.
+
+### References
+
+[EibenSmith2003] Eiben, A.E. and Smith, James E..
+Introduction to Evolutionary Computing. Springer (2003).
+
+
+
+## Chess player
+
+This project consists in developing a chess game which enables both human and computer players. The computer players will be implemented using min-max search with alpha pruning. The project can also be potentially extended to use machine learning to evaluate a given board state.
+
+### Prerequisites:
+
+- Ability to create a GUI
+
+### Challenges presented by the project:
+
+- Learn min-max and alpha pruning
+
+- Apply machine learning to evaluate a given board state
+
+### Learning outcomes:
+
+- Knowledge about search algorithms, and potentially machine learning algorithms.
+
+- Ability to understand and implement advanced algorithms.
+
+## Super Mario Player
+
+This project consists in developing an AI player for Super Mario World. The AI may take the form of an evolutionary neural network, and/or other AI approaches such as reinforcement learning. The AI will be integrated with a Super Mario API for demonstration, e.g., https://pypi.org/project/gym-super-mario-bros/. A tutorial on deep reinforcement learning using this API is here: https://pytorch.org/tutorials/intermediate/mario_rl_tutorial.html You would need to use a different AI from the one in this tutorial for the project. Other possible games could be considered for projects, e.g., based on the following API: https://gymnasium.farama.org/ https://github.com/Farama-Foundation/Gymnasium
+
+### Prerequisites:
+
+- Basic knowledge on machine learning 
+
+### Challenges presented by the project:
+
+- Formulating the problem as a machine learning problem
+
+- Designing an evolutionary neural network
+
+- Integrating the solution with an appropriate API
+
+### Learning outcomes:
+
+- Knowledge about evolutionary neural networks, and possibly reinforcement learning
+
+- Ability to understand and implement advanced algorithms
+
+## Prediction of Defect-Inducing Software Changes
+
+### Aims of the project
+
+Prediction of Defect-Inducing Software Changes consists in predicting whether a new software change (commit) is likely to induce defects based on machine learning models. This project consists in either creating a tool to perform such predictions based on existing machine learning algorithms (software engineering project), or on proposing and evaluating novel approaches for providing such predictions (artificial intelligence project).
+
+
+### Challenges presented by the project
+
+- Understanding and implementing existing approaches for prediction of defect-inducing software changes (software engineering project).
+
+- Proposing and implementing novel approaches to solve a complex problem (artificial intelligence project).
+
+### Learning outcomes
+
+- Background knowledge about existing machine learning approaches for prediction of defect-inducing software changes.
+
+- Ability to understand and implement advanced algorithms.
+
+### References
+
+[Sliwerski2005] Jacek Śliwerski, Thomas Zimmermann, Andreas Zeller
+When Do Changes Induce Fixes?, Proceedings of the International Workshop on Mining Software Repositories (2005), 1-5.
+
+
+## Online Machine Learning for Changing Environments
+
+### Aims of project
+
+Machine learning is an area within artificial intelligence concerned with studying and developing computational models capable of improving their performance with experience and acquiring knowledge on their own. For example, one could create machine learning models able to predict whether an email is spam or not, or whether the price of electricity is going to increase or reduce, or whether an network access to a computer is an attack or a normal access.
+
+Most machine learning approaches operate in offline mode. This means that they first need to create a model able to make predictions or estimations based on pre-existing existing data, and then they can start to be used for making predictions or estimations. Once the model is created, it cannot be further updated with new data. However, most real-world problems change with time. For instance, new spam strategies may be designed, or climate changes may affect electricity price, or new types of attacks may be developed. In order to deal with such changes, we need online algorithms, which are able to update models over time. This project aims at implementing and evaluating an online learning algorithm tool able to deal with different types of changes. 
+
+### Challenges presented by the project
+
+- Understanding existing online learning algorithms.
+
+- Implement an existing online learning algorithm and incorporate it into the MOA open source machine learning software.
+
+### Learning outcomes
+
+- Knowledge about existing machine learning approaches for changing environments.
+
+- Ability to understand and implement advanced algorithms.
+
+### Nature of end-product
+
+- Online machine learning tool.
+
+### Project timetable
+
+- Understand existing machine learning approaches and how to use MOA;
+design strategies to deal with recurring contexts;
+
+- implementation and testing;
+
+- evaluation and tuning of implementation;
+
+- write up.
+
+### References
+
+[MinkuYao2013] Minku, L. L. and Yao, X..
+DDD: A New Ensemble Approach For Dealing With Concept Drift., IEEE Transactions on Knowledge and Data Engineering 24 no.4 (2012), 619-633.
+
+
+
+
+
+
+
+
+
+
+
+## Cross-Company Machine Learning for Software Effort Estimation
+
+Software effort estimation is the problem of estimating the effort (e.g., number of person-hours) to develop a software project. This is a task of strategic importance in software management. Due to the difficulty of this task, several researchers have started to investigate the use of machine learning approaches to estimate effort based on data describing previous projects completed within a company. However, the data sets describing software projects within a single company are typically small. In order to create more accurate predictive models, there has been attempts to use data from different companies, i.e., cross-company data. However, such data may not represent the context of the single company of interest well.
+
+When existing cross-company data are not directly useful for improving software effort estimation, it is possible to map cross-company models created based on such data into the context of the single company that we are interested in. In this way, we can make use of cross-company data even when it is not directly useful. We have recently developed an approach that learns a linear mapping between the estimation given by cross-company models and the effort in the single company [2]. However, non-linear mappings may provide better results. This project investigates whether non-linear mappings can provide better results. It will involve the following:
+
+### Prerequisites
+
+- Programming abilities in Java
+
+- Aptitude for (guided) research 
+
+### Challenges presented by the project
+
+- Understanding existing machine learning approaches for software effort estimation.
+
+- Implementing an algorithm able to interact with existing machine learning algorithms available in the WEKA machine learning open source software.
+
+### Learning outcomes
+
+- Knowledge about existing machine learning approaches for software effort estimation.
+
+- Ability to understand and implement advanced algorithms.
+
+- Experience of undertaking research work.
+
+### Nature of end-product
+
+- Software effort estimation tool.
+
+### Project timetable
+
+- Understand existing approaches and how to use WEKA. 
+
+- Implementation and testing.
+
+- Evaluation and tuning of implementation.
+
+- Write-up.
+
+### References
+
+[MinkuYao2012] Minku, L. L. and Yao, X..
+Can Cross-company Data Improve Performance in Software Effort Estimation?, Proceedings of the 8th International Conference on Predictive Models in Software Engineering (PROMISE'2012), 69-78.
+
+
+
+## Machine Learning for Environments with Recurring Contexts
+
+This project is not available this year, but is listed here as an example of project that involves research on machine learning applications.
+
+### Aims of project
+
+Machine learning is an area within artificial intelligence concerned with studying and developing computational models capable of improving their performance with experience and acquiring knowledge on their own. For example, one could create machine learning models able to predict whether an email is spam or not, or whether the price of electricity is going to increase or reduce, or whether an network access to a computer is an attack or a normal access.
+
+Several machine learning real world problems operate in changing environments, and some of them operate in environments whose changes may repeat over time. For example, if one is trying to predict whether the electricity price will increase or reduce, changes may happen every season, taking us to situations already encountered in the past. Effective machine learning algorithms should be able to identify such recurring behaviour and benefit from existing models learned in the past. This project aims to design, develop and evaluate different machine learning strategies to identify recurring behaviour and benefit from past models.
+
+### Challenges presented by the project
+
+- Learning about existing machine learning algorithms.
+
+- Creative thinking for devising new strategies to identify and make use of past models.
+Implementing strategies and incorporating them into the MOA open source machine learning software.
+
+### Learning outcomes
+
+- Knowledge about existing machine learning approaches for changing environments.
+
+- Ability to understand and implement advanced algorithms.
+
+- Experience of undertaking research work.
+
+- Nature of end-product
+
+- Machine learning application for changing environments with recurring contexts;
+evaluation of the algorithm's performance.
+
+### Project timetable
+
+- Understand existing machine learning approaches and how to use MOA;
+design strategies to deal with recurring contexts;
+
+- implementation and testing;
+
+- evaluation and tuning of implementation;
+
+- write-up.
+
+### References
+
+[Hosseini2013] Hosseini, M., Ahmadi, Z. and Beigy, H..
+Using a classifier pool in accuracy based tracking of recurring concepts in data stream classification, Evolving System 4 (2013).
+
+
+
+
+
+## Data Extraction for Software Defect Prediction
+
+### Aims of project
+
+Software defect prediction consists in predicting whether a new software component is likely to contain defects. Machine learning can be used to create software defect prediction models based on existing data from a given software project. However, extracting such data can be challenging. 
+
+This project will implement an algorithm to extract software defect prediction data from GitHub and JIRA software repositories.
+ 
+
+### Challenges presented by the project
+
+- Understanding existing algorithms for software defect prediction data extraction.
+
+- Implement an existing algorithm to extract software defect prediction data from GitHub and JIRA software repositories.
+
+### Learning outcomes
+
+- Background knowledge about existing machine learning approaches for software defect prediction.
+
+- Knowledge about data collection in GitHub and JIRA.
+
+- Ability to understand and implement advanced algorithms.
+
+### Nature of end-product
+
+- Data extraction tool.
+
+### Project timetable
+
+- Understand existing machine learning approaches for software defect prediction;
+
+- Understand existing data extraction algorithms for software defect prediction;
+
+- Understand how to extract data from GitHub and JIRA;
+
+- implementation and testing;
+
+- data extraction;
+
+- run existing machine learning algorithms on the data extracted;
+
+- write up.
+
+### References
+
+[Sliwerski2005] Jacek Śliwerski, Thomas Zimmermann, Andreas Zeller
+When Do Changes Induce Fixes?, Proceedings of the International Workshop on Mining Software Repositories (2005), 1-5.
+
+
+
+## Inherited and Rare Cardiac Diseases (Collaboration with University Hospitals Birmingham)
+
+### Aims of the project
+
+The University Hospitals Birmingham NHS Foundation Trust (UHB) cares for one of the largest rare cardiac disease cohorts nationally.  These rare diseases vary in their severity, prognosis and treatment needs, but there are no evidence-based guidelines to help manage care.  In this project, the student will work with consultant cardiologists and data scientists to create a working rare cardiac disease registry, which can then be shared nationally and mined to learn more about these conditions.
+
+### Challenges of the project
+
+- Dealing with real world data
+
+- Interacting with staff from a different field
+
+### Learning outcomes
+
+- Preprocessing real world data
+
+- Mining real world data
